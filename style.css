@@ -3,18 +3,20 @@
     padding: 5px;
     font-weight: bolder;
     border-radius: 5px;
-    background: grey; 
+    background: lightgrey; 
     }
 body { 
     display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
     align-items: center;
     flex-direction: column;   
+    text-align: center;
     }
 .hi {
     font-size: 70px;
     background-color: red;
-    width: 255px;
+ 
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
     color: white;
@@ -28,13 +30,12 @@ body {
     padding: 0px 58px;
     background-color: red;
     margin: 0px 0px;
-    line-height: 80%;
+    line-height: 120%;
     }
 .sig { 
-    font-family: cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    line-height: 120%;
-    padding: 25px 110px;
+    padding: 25px 0px;
     background-color: white;
     margin: 0px 0px;
         }   
